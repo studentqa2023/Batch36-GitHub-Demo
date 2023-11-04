@@ -22,7 +22,7 @@ public class FirstClass {
 	ExtentTest test;
 	
 	@BeforeTest
-	public void setupReport() {
+	public void setupReport() {//Setup
 		
 		ExtentHtmlReporter reporter = new ExtentHtmlReporter("target/CostcoHoverTestReport.html");
 		reporter.config().setDocumentTitle("Testng Automation");
@@ -57,7 +57,7 @@ public class FirstClass {
 		}
 	
 	@AfterTest
-	public void printTestReprot() {
+	public void printTestReprot() {//finishing
 		extent.flush();
 	}
 
