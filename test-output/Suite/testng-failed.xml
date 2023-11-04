@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="myName" value="Smart Tech"/>
+    <classes>
+      <class name="com.testng.practice.ParmeterTestng">
+        <methods>
+          <include name="practiceParam"/>
+        </methods>
+      </class> <!-- com.testng.practice.ParmeterTestng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="a" value="25"/>
+    <classes>
+      <class name="com.testng.practice.ParmeterTestng">
+        <methods>
+          <include name="practiceParam"/>
+        </methods>
+      </class> <!-- com.testng.practice.ParmeterTestng -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
