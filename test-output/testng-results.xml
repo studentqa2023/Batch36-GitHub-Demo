@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-28T15:12:46 EDT" name="Default suite" finished-at="2023-10-28T15:12:51 EDT" duration-ms="5201">
+  <suite started-at="2023-11-30T20:42:53 EST" name="Default suite" finished-at="2023-11-30T20:42:54 EST" duration-ms="953">
     <groups>
     </groups>
-    <test started-at="2023-10-28T15:12:46 EDT" name="Default test" finished-at="2023-10-28T15:12:51 EDT" duration-ms="5201">
-      <class name="com.testng.practice.FirstClass">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.testng.practice.FirstClass@16eb3ea3]" started-at="2023-10-28T15:12:46 EDT" name="setupReport" finished-at="2023-10-28T15:12:46 EDT" duration-ms="160" status="PASS">
+    <test started-at="2023-11-30T20:42:53 EST" name="Default test" finished-at="2023-11-30T20:42:54 EST" duration-ms="953">
+      <class name="com.API.Testing.WithTestNG.TestDeleteWithTestNG">
+        <test-method signature="testDelete()[pri:0, instance:com.API.Testing.WithTestNG.TestDeleteWithTestNG@74287ea3]" started-at="2023-11-30T20:42:53 EST" name="testDelete" finished-at="2023-11-30T20:42:54 EST" duration-ms="924" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method signature="getMouseHover()[pri:0, instance:com.testng.practice.FirstClass@16eb3ea3]" started-at="2023-10-28T15:12:46 EDT" name="getMouseHover" finished-at="2023-10-28T15:12:51 EDT" duration-ms="4786" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getMouseHover -->
-        <test-method is-config="true" signature="printTestReprot()[pri:0, instance:com.testng.practice.FirstClass@16eb3ea3]" started-at="2023-10-28T15:12:51 EDT" name="printTestReprot" finished-at="2023-10-28T15:12:51 EDT" duration-ms="224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printTestReprot -->
-      </class> <!-- com.testng.practice.FirstClass -->
+        </test-method> <!-- testDelete -->
+      </class> <!-- com.API.Testing.WithTestNG.TestDeleteWithTestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
